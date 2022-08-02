@@ -1,6 +1,7 @@
 import './categories-container.style.scss'
 import CategoryItem from '../category-item/CategoryItem.component'
 const CategoryContainer = ({categories}) => {
+
     return (
         <div className='categories-container'>
             {categories.map((category) => {

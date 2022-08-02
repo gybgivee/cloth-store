@@ -13,7 +13,7 @@ const Category = ()=>{
 //it will render before we get categories back from firebase 
 //so we need to build a safeguard by => products&&products.map(only run when products not null)
     return(
-        <Fragment>
+        <div className="page-container">
         <h2 className='category-title'>{category.toUpperCase()}</h2>
         <div className="category-container">
             {
@@ -26,7 +26,7 @@ const Category = ()=>{
             }
 
         </div>
-        </Fragment>
+        </div>
     )
 
 }
